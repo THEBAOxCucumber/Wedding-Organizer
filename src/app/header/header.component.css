@@ -1,0 +1,31 @@
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1rem 0;
+  background: #ffffff;
+}
+
+/* Link */
+.navbar a {
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: #333;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+/* Hover */
+.navbar a:hover {
+ background: #e4fcf1;
+  color: #1b3c34;
+}
+
+/* Active Route */
+.navbar a.active {
+  font-weight: bold;
+  color: #ffffff;
+  background: #1b3c34;
+}
